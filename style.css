@@ -1,0 +1,296 @@
+/* font-family: Apercu, helvetica, sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khand&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-font: 'Khand', sans-serif;
+}
+.screen{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    /* border: 1px solid salmon; */
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+
+}
+.left-nav{
+    width: 50%;
+    /* border: 1px solid slateblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+}
+.right-nav{
+    width: 45%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+
+}
+.hamburger{
+    width: 5%;
+    /* border: 1px solid black; */
+}
+.hamburger i{
+    width: 100%;
+    text-align: center;
+}
+.logo{
+    /* border: 1px solid salmon; */
+    width: 17%;
+}
+.logo img{
+    width: 100%;
+}
+.nav-links-wrapper{
+    /* border: 1px solid orange; */
+    width: 70%;
+}
+.nav-links-wrapper ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.navbar ul li{
+    font-family: var(--primary-font);
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.sign-in{
+    /* border: 1px solid black; */
+    width: 15%;
+    text-align: center;
+}
+.sign-in h1{
+    font-family: var(--primary-font);
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.subscribe{
+    /* border: 1px solid salmon; */
+    font-size: 14px;
+    width: 15%;
+    text-align: center;
+}
+.subscribe button{
+    font-size: 14px;
+    color: white;
+    background-color: #2f6697;
+    border: none;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: var(--primary-font);
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.search{
+    /* border: 1px solid orange; */
+    width: 10%;
+    text-align: center;
+}
+.search i{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
