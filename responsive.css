@@ -1,4 +1,15 @@
 @media screen and (max-width : 767px){
+    .right-nav{
+        width: 5%;
+        /* justify-content: end; */
+    }
+    
+   .sign-in{
+    width: 0px;
+   }
+   .search{
+    width: 0px;
+   }
     .content-1{
         flex-direction: column;
     }
@@ -6,12 +17,8 @@
         width: 100%;
         padding: 0px;
     }
-    .recent{
-        width: 100%;
-        padding: 0px;
-    }
     .content{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .left-content{
         width: 100%;
@@ -21,9 +28,22 @@
         width: 100%;
         /* order:1; */
     }
-    .news{
+    .recent{
         width: 100%;
+        padding: 0px;
+        flex-wrap: nowrap;
+        flex-direction: column;
     }
+    .news{
+         width: 100%;
+    }
+    .sign-in{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    
 }
 
 
@@ -42,10 +62,6 @@
 
 }
 
-
-
-
-
 @media screen and (max-width : 959px){
 
     .nav-links-wrapper ul li:nth-child(7){
@@ -54,7 +70,6 @@
     .nav-links-wrapper ul li:nth-child(8){
         display: contents;
     }
-
 
 }
 @media screen and (max-width : 945px){
@@ -112,9 +127,7 @@
         justify-content: space-around;
     }
 
-    .nav-links-wrapper ul {
-        display: none;
-    }
+    
     .left-nav{
         width: 40;
         justify-content: start;
@@ -125,16 +138,52 @@
         justify-content: space-around;
     }
     .hamburger{
-        width: 5%;
+        width: 10%;
     }
     .logo{
         width: 20%;
     }
 }
-
-@media screen and (max-width : 1023px){
-
+@media screen and (max-width : 642px){
+    .nav-links-wrapper ul {
+        display: none;
+    }
+    .hamburger{
+        width: 5%;
+    }
+    .logo{
+        width: 20%;
+    }
    
+    .left-nav{
+        width: 75%;
+    }
+    .right-nav{
+        width: 10%;
+    }
+}
+@media screen and (max-width : 1023px){
+    .content-1{
+        flex-direction: column;
+        
+    }
+    
+   .todays-pick{
+    width: 100%;
+    padding: 0px;
+   }
+   .recent{
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+   
+   .content-1 .recent .news{
+    width: 50%;
+   }
+
 
 
 }
