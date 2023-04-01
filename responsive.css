@@ -1,0 +1,158 @@
+@media screen and (max-width : 767px){
+    .content-1{
+        flex-direction: column;
+    }
+    .todays-pick{
+        width: 100%;
+        padding: 0px;
+    }
+    .recent{
+        width: 100%;
+        padding: 0px;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .left-content{
+        width: 100%;
+        /* order:1; */
+    }
+    .right-content{
+        width: 100%;
+        /* order:1; */
+    }
+    .news{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width : 1020px){
+    .navbar{
+        justify-content: space-around;
+    }
+
+    .left-nav{
+        width: 70%;
+    }
+    .right-nav{
+        width: 20%;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width : 959px){
+
+    .nav-links-wrapper ul li:nth-child(7){
+        display: none;
+    }
+    .nav-links-wrapper ul li:nth-child(8){
+        display: contents;
+    }
+
+
+}
+@media screen and (max-width : 945px){
+
+    .nav-links-wrapper ul li:nth-child(6){
+        display: none;
+    }
+    .nav-links-wrapper ul li:nth-child(7){
+        display: none;
+    }
+    .nav-links-wrapper ul li:nth-child(8){
+        display: contents;
+    }
+
+
+}
+@media screen and (max-width : 876px){
+    .nav-links-wrapper ul li:nth-child(5){
+        display: none;
+    }
+    .nav-links-wrapper ul li:nth-child(6){
+        display: none;
+    }
+    .nav-links-wrapper ul li:nth-child(7){
+        display: none;
+    }
+    .nav-links-wrapper ul li:nth-child(8){
+        display: contents;
+    }
+
+
+}
+@media screen and (max-width : 822px){
+    .nav-links-wrapper ul li:nth-child(4){
+        display: none;
+    }
+    .nav-links-wrapper ul li:nth-child(5){
+        display: none;
+    }
+    .nav-links-wrapper ul li:nth-child(6){
+        display: none;
+    }
+    .nav-links-wrapper ul li:nth-child(7){
+        display: none;
+    }
+    .nav-links-wrapper ul li:nth-child(8){
+        display: contents;
+    }
+
+
+}
+
+@media screen and (max-width : 770px){
+    .navbar{
+        justify-content: space-around;
+    }
+
+    .nav-links-wrapper ul {
+        display: none;
+    }
+    .left-nav{
+        width: 40;
+        justify-content: start;
+        gap: 3%;
+    }
+    .right-nav{
+        width: 30%;
+        justify-content: space-around;
+    }
+    .hamburger{
+        width: 5%;
+    }
+    .logo{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width : 1023px){
+
+   
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
