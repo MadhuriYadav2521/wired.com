@@ -25,11 +25,18 @@
     color: white;
     background-color: black;
     padding: 5px 10px;
-    width: 14%;
+    width: 30%;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
+    /* display: inline; */
+    border: none;
 
+}
+.title{
+    width: 100%;
+    border-top: 2px solid black;
+    margin-bottom: 20px;
 }
 .subtitle{
     font-size: 0.90em;
@@ -211,11 +218,15 @@
     display: flex;
     justify-content: space-between;
 }
+
 .todays-pick{
     width: 75%;
     /* height: 400px; */
     border-right: 1px solid lightgray;
     padding-right: 15px;
+}
+.todays-pick .title h4{
+    width: 15%;
 }
 .recent{
     width: 25%;
@@ -223,11 +234,7 @@
     padding-left: 15px;
     /* border: 1px solid violet; */
 }
-.title{
-    width: 100%;
-    border-top: 2px solid black;
-    margin-bottom: 20px;
-}
+
 .content-section{
     width: 100%;
 }
@@ -303,9 +310,228 @@
     object-fit: cover;
 }
 .recent .main-title{
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 22px;
 }
+
+/* trending stories */
+.content-2{
+    width: 100%;
+}
+.trending-stories{
+    width: 100%;
+}
+.trending-stories .title{
+    display: flex;
+}
+.trending-stories .title h4{
+    width: 12%;
+}
+.trending-stories .title h5{
+    margin-left: 20px;
+}
+.trending-stories .news{
+    width: 23%;
+    /* border:  1px solid salmon; */
+}
+.ts-img{
+    width: 100%;
+}
+.ts-img img{
+    width: 100%;
+}
+.trending-stories .main-title{
+    font-size: 1em;
+    line-height: 22px;
+}
+.trending-stories .normal-text{
+    font-size: 0.87em;
+}
+.trending-stories .subtitle2{
+    font-weight: bold;
+}
+
+.content-3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wired-img{
+    width: 50%;
+    height: 300px;
+    border: 1px solid salmon;
+}
+.wired-img img{
+    width: 100%;
+}
+.wired-info{
+    height: 300px;
+    width: 48%;
+    border: 1px solid slateblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
